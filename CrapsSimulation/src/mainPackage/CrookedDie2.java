@@ -1,3 +1,5 @@
+package mainPackage;
+import edu.princeton.cs.introcs.StdOut;
 
 public class CrookedDie2 extends Die // subclassing
 {

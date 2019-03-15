@@ -1,3 +1,5 @@
+package mainPackage;
+import edu.princeton.cs.introcs.StdOut;
 
 public class CrookedDie1 extends Die
 {
@@ -11,6 +13,11 @@ public class CrookedDie1 extends Die
 								// it!
 	{
 		return 3;
+	}
+	
+	public static String testStatic () {
+		
+		return "CrookedDie1";
 	}
 
 	public String toString() // this OVERRIDES Die's toString()

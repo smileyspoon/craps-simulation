@@ -1,3 +1,5 @@
+package mainPackage;
+import edu.princeton.cs.introcs.StdOut;
 /**
  * Just some Java code to allow you to explore inheritance, constructor
  * chaining, and polymorphism ("dynamic method lookup")
@@ -20,7 +22,19 @@ public class PlayWithInheritance
 		Die aSingleDie = new Die();
 		CrookedDie1 crooked1 = new CrookedDie1();
 		CrookedDie2 crooked2 = new CrookedDie2();
+		
+		
+		
+		
+		//Homework 2.5
+		Die die = new CrookedDie1();
+		
+		StdOut.println("This is for the homework section 2.5    " + die.testStatic());
 
+		
+		
+		
+		
 		StdOut.println();
 
 		// change RUN_EXAMPLE above to run any one of the following 6 examples

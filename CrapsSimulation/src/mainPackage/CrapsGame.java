@@ -1,3 +1,5 @@
+package mainPackage;
+import edu.princeton.cs.introcs.StdOut;
 // foo again
 public class CrapsGame
 {

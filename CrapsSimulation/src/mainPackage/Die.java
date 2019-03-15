@@ -1,3 +1,5 @@
+package mainPackage;
+import edu.princeton.cs.introcs.StdOut;
 
 public class Die
 {
@@ -6,7 +8,6 @@ public class Die
 	public Die()
 	{
 		// CrapsGame.println("Die's constructor called.");
-		this.roll();
 	}
 
 	public Die(int firstValue) // overloaded constructor: different signature
@@ -39,6 +40,11 @@ public class Die
 
 		// add the following to the end of the above line:
 		// + " " + super.toString()
+	}
+	
+	public static String testStatic () {
+		
+		return "Die";
 	}
 
 	public String toString(int msg) // Overloading... but NOT overriding!
